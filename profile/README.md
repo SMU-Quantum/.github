@@ -42,6 +42,12 @@ We are proud to share some of our latest research contributions:
 4. **A Comparative Study of Quantum Optimization Techniques for Solving Combinatorial Optimization Benchmark Problems**  
    [View Publication](https://arxiv.org/abs/2503.12121)
 
+5. **Adaptive Graph Shrinking for Quantum Optimization of Constrained Combinatorial Problems**
+   [View Publication](https://arxiv.org/abs/2506.14250)
+
+6. **Cutting Slack: Quantum Optimization with Slack-Free Methods for Combinatorial Benchmarks**
+   [View Publication](https://arxiv.org/abs/2507.12159)
+
 *And more are coming soon…*
 
 ---
