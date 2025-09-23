@@ -20,6 +20,13 @@ Explore our flagship projects:
 - **[Quantum Optimization Algorithms](https://github.com/SMU-Quantum/quantum-optimization-algorithms)**  
   *Developing advanced algorithms for quantum optimization.*
 
+- **[Cutting Slack](https://github.com/SMU-Quantum/cutting_slack)** \
+  *Exploring and comparing slack-free constraint-handling techniques in quantum combinatorial optimization*
+
+- **[Hybrid Learning and Optimization for CVRP](https://github.com/SMU-Quantum/adaptive_quantum_cvrp)** \
+  *hybrid framework that uses Reinforcement Learning (RL) to automate parameter tuning for an Augmented Lagrangian Method (ALM) solver for the Capacitated Vehicle Routing Problem (CVRP)*
+  
+
 > **Stay tuned:** We are continuously expanding our portfolio with new projects and updates!
 
 ---
@@ -39,17 +46,18 @@ We are proud to share some of our latest research contributions:
    *2024 IEEE International Conference on Quantum Computing and Engineering (QCE), Volume 01, Pages 692–698, 2024*  
    [View Publication](https://ieeexplore.ieee.org/document/10821401)
 
-4. **A Comparative Study of Quantum Optimization Techniques for Solving Combinatorial Optimization Benchmark Problems**
-   
-   [View Publication](https://arxiv.org/abs/2503.12121)
+4. **A Comparative Study of Quantum Optimization Techniques for Solving Combinatorial Optimization Benchmark Problems** \
+    [View Publication](https://arxiv.org/abs/2503.12121) \
+    [View Code](https://github.com/SMU-Quantum/quantum-optimization-benchmarks)
 
-6. **Adaptive Graph Shrinking for Quantum Optimization of Constrained Combinatorial Problems**
-   
-      [View Publication](https://arxiv.org/abs/2506.14250)
-
-8. **Cutting Slack: Quantum Optimization with Slack-Free Methods for Combinatorial Benchmarks**
-   
-      [View Publication](https://arxiv.org/abs/2507.12159)
+6. **Adaptive Graph Shrinking for Quantum Optimization of Constrained Combinatorial Problems** \
+   [View Publication](https://arxiv.org/abs/2506.14250)
+7. **Cutting Slack: Quantum Optimization with Slack-Free Methods for Combinatorial Benchmarks** \
+   [View Publication](https://arxiv.org/abs/2507.12159) \
+   [View Code](https://github.com/SMU-Quantum/cutting_slack)
+9. **Hybrid Learning and Optimization methods for solving Capacitated Vehicle Routing Problem** \
+   [View Publication](https://arxiv.org/abs/2509.15262v1) \
+   [View Code](https://github.com/SMU-Quantum/adaptive_quantum_cvrp)
 
 *And more are coming soon…*
 
