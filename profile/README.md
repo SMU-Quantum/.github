@@ -50,11 +50,21 @@ We are proud to share some of our latest research contributions:
     [View Publication](https://arxiv.org/abs/2503.12121) \
     [View Code](https://github.com/SMU-Quantum/quantum-optimization-benchmarks)
 
-6. **Adaptive Graph Shrinking for Quantum Optimization of Constrained Combinatorial Problems** \
+5. **Implementing Slack-Free Custom Penalty Function for QUBO on Gate-Based Quantum Computers** \
+   *2025 IEEE International Conference on Quantum Computing and Engineering (QCE)* \
+   [View Publication](https://arxiv.org/abs/2504.12611) 
+
+6. **Solving Constrained Combinatorial Optimization Problems with Variational Quantum Imaginary Time Evolution** \
+   *2025 IEEE International Conference on Quantum Computing and Engineering (QCE)* \
+   [View Publication](https://arxiv.org/abs/2504.12607) 
+
+7. **Adaptive Graph Shrinking for Quantum Optimization of Constrained Combinatorial Problems** \
    [View Publication](https://arxiv.org/abs/2506.14250)
-7. **Cutting Slack: Quantum Optimization with Slack-Free Methods for Combinatorial Benchmarks** \
+
+8. **Cutting Slack: Quantum Optimization with Slack-Free Methods for Combinatorial Benchmarks** \
    [View Publication](https://arxiv.org/abs/2507.12159) \
    [View Code](https://github.com/SMU-Quantum/cutting_slack)
+
 9. **Hybrid Learning and Optimization methods for solving Capacitated Vehicle Routing Problem** \
    [View Publication](https://arxiv.org/abs/2509.15262v1) \
    [View Code](https://github.com/SMU-Quantum/adaptive_quantum_cvrp)
