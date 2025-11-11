@@ -66,8 +66,10 @@ We are proud to share some of our latest research contributions:
    [View Code](https://github.com/SMU-Quantum/cutting_slack)
 
 9. **Hybrid Learning and Optimization methods for solving Capacitated Vehicle Routing Problem** \
+    *AAAI 2026 Workshop on Quantum Computing (QC), to appear in Communications in Computer and Information Science (CCIS), Springer Nature.*
    [View Publication](https://arxiv.org/abs/2509.15262v1) \
    [View Code](https://github.com/SMU-Quantum/adaptive_quantum_cvrp)
+   
 
 *And more are coming soon…*
 
