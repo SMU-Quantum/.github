@@ -19,7 +19,7 @@
 
 SMU-Quantum is an open research organization at the [School of Computing and Information Systems](https://computing.smu.edu.sg), **Singapore Management University (SMU)**.
 
-Led by [Prof. Hoong Chuin Lau](https://faculty.smu.edu.sg/profile/lau-hoong-chuin-631), Professor of Computer Science at SMU and Senior Principal Scientist at [A*STAR’s Institute of High Performance Computing](https://www.nqch.sg/researcher/hoong-chuin-lau/), we study how quantum, quantum-inspired, classical, and learning-based methods can work together on difficult decision problems.
+Led by [Prof. Hoong Chuin Lau](https://faculty.smu.edu.sg/profile/lau-hoong-chuin-631), Professor of Computer Science at SMU and Senior Principal Scientist at A*STAR’s **Institute of Advanced Intelligence and Computing (IAIC)**, we study how quantum, quantum-inspired, classical, and learning-based methods can work together on difficult decision problems.
 
 Our repositories contain research software, benchmark instances, tutorials, experiment artifacts, and hardware-oriented workflows. The work is grounded in practical constraints: limited qubits, circuit depth, noise, finite shots, penalty design, scalability, and strong classical baselines.
 
@@ -59,15 +59,21 @@ We ask when a quantum component is useful, how to make it resource-aware, and ho
 
 ### Recent research highlights
 
+#### Reports and surveys
+
+- **[Quantum computing for modelling compound disruptions: Evidence from supply chains, disaster bonds and inventory planning](https://ink.library.smu.edu.sg/sis_research/11419/)** — SMU whitepaper by Hoong Chuin Lau and Monit Sharma (October 2026). Examines how quantum sampling can help assess linked risks in Singapore’s semiconductor supply chain, joint disaster-bond payouts, and inventory planning.
+
+- **[Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization](https://arxiv.org/abs/2610.11759)** — survey preprint by Hoong Chuin Lau (October 2026). Reviews how learned policies guide quantum and hybrid optimizers and proposes an evidence hierarchy for evaluating the role of quantum computation.
+
 #### Quantum optimization, learning, and hardware
 
-- **[From Circuits to Hardware: Benchmarking Standard and Qubit-Efficient Quantum Optimization on Real Hardware](https://arxiv.org/abs/2607.11637)** — accepted in *Quantum Science and Technology*. Benchmarks VQE, CVaR-VQE, QAOA variants, PCE, and QRAO across MDKP, MIS, QAP, and MSP on IBM Heron processors, covering 247 method–instance combinations. ([DOI](https://doi.org/10.1088/2058-9565/ae94a4) · [Code and artifacts](https://github.com/SMU-Quantum/quantum-optimization-benchmarks/tree/from-circuits-to-hardware))
+- **[From Circuits to Hardware: Benchmarking Standard and Qubit-Efficient Quantum Optimization on Real Hardware](https://arxiv.org/abs/2607.11637)** — published in *Quantum Science and Technology*. Benchmarks VQE, CVaR-VQE, QAOA variants, PCE, and QRAO across MDKP, MIS, QAP, and MSP on IBM Heron processors, covering 247 method–instance combinations. ([DOI](https://doi.org/10.1088/2058-9565/ae94a4) · [Code and artifacts](https://github.com/SMU-Quantum/quantum-optimization-benchmarks/tree/from-circuits-to-hardware))
 
 - **[CVaR-Assisted Custom Penalty Function for Constrained Optimization](https://arxiv.org/abs/2604.20088)** — combines slack-free nonlinear penalties, finite sampling, and CVaR optimization for constrained binary problems, with experiments on Quantinuum H2 hardware.
 
 - **[Light Cone Cancellation for Variational Quantum Eigensolver in Solving Noisy Max-Cut](https://doi.org/10.1038/s41598-025-31798-1)** — published in *Scientific Reports*. Develops a light-cone cancellation framework for reducing noise effects in VQE-based Max-Cut experiments.
 
-- **[AutoQResearch: LLM-Guided Closed-Loop Policy Search for Adaptive Variational Quantum Optimization](https://arxiv.org/abs/2604.24283)** — accepted as a QCE26 Quantum–GenAI Co-Design & Co-Discovery technical paper. Searches adaptive solver-control policies for MIS and CVRP instead of selecting one static solver configuration. ([Repository](https://github.com/SMU-Quantum/autoqresearch))
+- **[AutoQResearch: LLM-Guided Closed-Loop Policy Search for Adaptive Variational Quantum Optimization](https://arxiv.org/abs/2604.24283)** — published in the [IEEE QCE 2026 proceedings](https://ink.library.smu.edu.sg/sis_research/11412/). Searches adaptive solver-control policies for MIS and CVRP instead of selecting one static solver configuration. ([Repository](https://github.com/SMU-Quantum/autoqresearch))
 
 - **[Qubit-Scalable CVRP via Lagrangian Knapsack Decomposition and Noise-Aware Quantum Execution](https://arxiv.org/abs/2604.22194)** — decomposes CVRP into bounded-width per-vehicle knapsack subproblems, learns multiplier updates, and treats backend and circuit selection as part of the optimization loop. The paper explicitly does not claim quantum advantage.
 
@@ -77,9 +83,13 @@ We ask when a quantum component is useful, how to make it resource-aware, and ho
 
 - **[Diagnosing Simulation and Hardware Barriers to Cross-Size Transfer in Equivariant Quantum Reinforcement Learning](https://arxiv.org/abs/2510.14533)** — evaluates cross-size policy transfer across statevector simulation, tensor-network simulation, noisy execution, and hardware, while documenting the limits of scaling claims.
 
+#### Fault-tolerant quantum resource estimates
+
+- **[Shared Lookups and Lazy Residues: Fewer Toffoli Gates for Factoring RSA-2048](https://arxiv.org/abs/2611.08907)** — preprint by Monit Sharma and Hoong Chuin Lau (November 2026) on resource estimates for fault-tolerant quantum factoring.
+
 #### Applied optimization and decision intelligence
 
-- **[Securing the Flow: Maritime Energy Resilience under Correlated and Decision-Dependent Disruptions](https://arxiv.org/abs/2605.11990)** — develops a stochastic multi-commodity flow model with decision-dependent disruption probabilities, mean-CVaR risk, and Benders decomposition for maritime energy resilience.
+- **[Securing the flow: Strategic storage and corridor design for maritime energy security under chokepoint disruptions](https://doi.org/10.1016/j.tre.2026.105296)** — published online in *Transportation Research Part E: Logistics and Transportation Review* (October 2026). Develops a stochastic network-design model for storage and routing decisions under maritime chokepoint disruptions. ([arXiv](https://arxiv.org/abs/2605.11990))
 
 - **[Hybrid Learning and Optimization Methods for Solving the Capacitated Vehicle Routing Problem](https://arxiv.org/abs/2509.15262)** — combines Soft Actor-Critic reinforcement learning with augmented Lagrangian optimization for adaptive penalty control. ([Code](https://github.com/SMU-Quantum/adaptive_quantum_cvrp) · [Springer chapter](https://doi.org/10.1007/978-3-032-17625-7_2))
 
